@@ -139,6 +139,9 @@ export default class CanvasRoi {
     this._ElScaleObserver = window.matchMedia(
       `(resolution: ${window.devicePixelRatio}dppx)`
     )
+    if (!this._ElScaleObserver) {
+      return
+    }
     this._ElScaleObserver.addEventListener(
       'change',
       this._scaleChangeWatcher.bind(this)
