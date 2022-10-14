@@ -1,4 +1,5 @@
 /// <reference types="resize-observer-browser" />
+import { ResizeObserver } from '@juggle/resize-observer'
 import {
   publicMethods,
   eventNames,

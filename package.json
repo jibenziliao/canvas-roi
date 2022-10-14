@@ -1,6 +1,6 @@
 {
-  "name": "@wxhccc/canvas-roi",
-  "version": "2.3.0",
+  "name": "@jibenziliao/canvas-roi",
+  "version": "2.3.1",
   "description": "",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -55,13 +55,14 @@
     "vue": "^3.0.7"
   },
   "dependencies": {
+    "@juggle/resize-observer": "^3.4.0",
     "postcss": "^8.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:wxhccc/canvas-roi.git"
+    "url": "git@github.com:jibenziliao/canvas-roi.git"
   },
-  "author": "wxhccc",
+  "author": "jibenziliao",
   "license": "MIT",
   "husky": {
     "hooks": {
